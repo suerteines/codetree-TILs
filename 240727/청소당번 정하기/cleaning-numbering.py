@@ -4,9 +4,7 @@ cnt_1 = 0
 cnt_2 = 0
 cnt_3 = 0
 for i in range (n):
-    if i == 0:
-        pass
-    elif i % 12 == 0:
+    if i % 12 == 0:
         cnt_3 += 1
     elif i % 3 == 0:
         cnt_2 += 1
